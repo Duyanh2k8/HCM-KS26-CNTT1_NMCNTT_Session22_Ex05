@@ -89,5 +89,5 @@ flowchart TD
   H --> |Không| J("Đăng Bug Report lên nhóm hỗ trợ")
   F --> |Không| J("Đăng Bug Report lên nhóm hỗ trợ")
   J --> K("Thành viên kỹ thuật phân tích")
-  K --> L{"Cập nhật kết quả vào kho tàiliệu"}
+  K --> L("Cập nhật kết quả vào kho tàiliệu")
 ```
