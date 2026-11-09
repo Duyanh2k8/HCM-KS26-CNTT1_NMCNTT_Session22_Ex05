@@ -79,7 +79,7 @@ hoặc thay đổi hệ thống khi chưa cần thiết.
 ```mermaid
 flowchart TD
   A("Phát sinh lỗi kỹ thuật") --> B("<b>Điền Bug Report:</b></br>4 mảnh ghép")
-  B --> C("Bước 1: Googling"]
+  B --> C("Bước 1: Googling")
   C --> D("Bước 2: Community Search")
   D --> E("Bước 3: AI Translation")
   E --> F("Đã tìm được giải pháp?")
