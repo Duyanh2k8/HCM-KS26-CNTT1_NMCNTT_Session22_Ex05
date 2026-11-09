@@ -84,3 +84,10 @@ flowchart TD
   D --> E["Bước 3: AI Translation"]
   E --> F["Đã tìm được giải pháp?"]
   F --> |Có| G["Kiểm chứng và thử nghiệm an toàn"]
+  G --> H["Khắc phục thành công?"]
+  H --> |Có| I["Ghi lại giải pháp vào kho tài liệu nội bộ"]
+  H --> |Không| J["Đăng Bug Report lên nhóm hỗ trợ"]
+  F --> |Không| J["Đăng Bug Report lên nhóm hỗ trợ"]
+  J --> K["Thành viên kỹ thuật phân tích"]
+  K --> L["Cập nhật kết quả vào kho tàiliệu"]
+```
