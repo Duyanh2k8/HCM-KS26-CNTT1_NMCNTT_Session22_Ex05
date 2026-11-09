@@ -77,7 +77,7 @@ hoặc thay đổi hệ thống khi chưa cần thiết.
 ```
 ## 3. Sơ đồ quy trình Troubleshooting tổng thể
 ```mermaid
-flowchart TD
+graph TD
   A["Phát sinh lỗi kỹ thuật"] --> B["Điền Bug Report: 4 mảnh ghép"]
   B --> C["Bước 1: Googling"]
   C --> D["Bước 2: Community Search"]
