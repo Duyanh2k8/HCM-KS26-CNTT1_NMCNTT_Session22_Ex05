@@ -78,16 +78,16 @@ hoặc thay đổi hệ thống khi chưa cần thiết.
 ## 3. Sơ đồ quy trình Troubleshooting tổng thể
 ```mermaid
 flowchart TD
-  A["Phát sinh lỗi kỹ thuật"] --> B["<b>Điền Bug Report:</b></br>4 mảnh ghép"]
-  B --> C["<b>Bước 1:</b> Googling"]
-  C --> D["<b>Bước 2:</b> Community Search"]
-  D --> E["<b>Bước 3:</b> AI Translation"]
-  E --> F["Đã tìm được giải pháp?"]
-  F --> |Có| G["Kiểm chứng và thử nghiệm an toàn"]
-  G --> H["Khắc phục thành công?"]
-  H --> |Có| I["Ghi lại giải pháp vào kho tài liệu nội bộ"]
-  H --> |Không| J["Đăng Bug Report lên nhóm hỗ trợ"]
-  F --> |Không| J["Đăng Bug Report lên nhóm hỗ trợ"]
-  J --> K["Thành viên kỹ thuật phân tích"]
-  K --> L["Cập nhật kết quả vào kho tàiliệu"]
+  A("Phát sinh lỗi kỹ thuật") --> B("<b>Điền Bug Report:</b></br>4 mảnh ghép")
+  B --> C("Bước 1: Googling"]
+  C --> D("Bước 2: Community Search")
+  D --> E("Bước 3: AI Translation")
+  E --> F("Đã tìm được giải pháp?")
+  F --> {Có} G("Kiểm chứng và thử nghiệm an toàn")
+  G --> H("Khắc phục thành công?")
+  H --> {Có} I("Ghi lại giải pháp vào kho tài liệu nội bộ")
+  H --> |Không| J("Đăng Bug Report lên nhóm hỗ trợ")
+  F --> |Không| J("Đăng Bug Report lên nhóm hỗ trợ")
+  J --> K("Thành viên kỹ thuật phân tích")
+  K --> L("Cập nhật kết quả vào kho tàiliệu")
 ```
