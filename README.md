@@ -90,4 +90,6 @@ flowchart TD
   F --> |Không| J["Đăng Bug Report lên nhóm hỗ trợ"]
   J --> K["Thành viên kỹ thuật phân tích"]
   K --> L["Cập nhật kết quả vào kho tàiliệu"]
+
+  style A fill:#cce5ff,stroke:#0288d1,stroke-width:2px
 ```
