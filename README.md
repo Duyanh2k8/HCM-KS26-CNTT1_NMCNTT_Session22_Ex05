@@ -1,7 +1,7 @@
 # Bài 5 : Tối ưu quy trình hỗ trợ kỹ thuật nội bộ
 ## 1. Thiết kế Bug Report Template
-<span style="background-color: #EAF3FF; 
-color: #168BFF; 
+<span style="background-color: #87CEEB; 
+color: #0000CD; 
 padding: 5px 12px; 
 border-radius: 20px;">
   BẮT BUỘC ĐIỀN TRƯỚC KHI HỎI
